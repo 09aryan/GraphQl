@@ -15,7 +15,7 @@ const startServer = async () => {
 
   // Connect to MongoDB
   try {
-    await mongoose.connect('=mongodb+srv://24aaryan00:XE1lgXbpxaEs3elB@cluster0.qsbsm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
+    await mongoose.connect('mongodb+srv://24aaryan00:XE1lgXbpxaEs3elB@cluster0.qsbsm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
     console.log('MongoDB connected');
   } catch (err) {
     console.error('MongoDB connection error:', err);
