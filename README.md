@@ -77,7 +77,7 @@ This is a **GraphQL-based social media backend** built with Node.js, Express, Ap
 
 4. **Start the Server**
    ```bash
-   npm start
+   node src/index.js
    ```
    The server will be running at `http://localhost:4000`.
 
